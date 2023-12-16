@@ -93,7 +93,7 @@ function buildHeader(){
             // Change these to your actual items
             let items = [];
             if (leftHeadings[i] == "Skills") {
-                items = ["Quantitative Analysis", "Modelling and Simulation", "Cognitive Science Research", "Serious Games Development", "Educational Content Creation"];
+                items = ["Quantitative Analysis", "Modelling and Simulation", "Cognitive Science Research", "Design and Development of Serious Games", "Educational Content Creation"];
             }
             // Loop through the items array
             for (var j = 0; j < items.length; j++) {
