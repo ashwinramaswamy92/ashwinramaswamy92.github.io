@@ -94,7 +94,7 @@ function buildMain(){
                  <a href = 'https://github.com/ashwinramaswamy92/Association-Trainer/blob/20b0092cb61e75ed5a69e005ac1307fb4c379991/Quiz%20Theory.ipynb'>Link</a></b>`)
             } else if(headings[i] == "Social Simulation to study Political Polarization"){
                 items.push(`<b>Description:</b> In this modelling project we use Bounded-Confidence models of opinion dynamics to study the role of media, social media, and social identity on political polarization.<br>
-                `)
+                <b><a href = 'https://link.springer.com/chapter/10.1007/978-3-031-34920-1_20'>Conference Paper: Springer Proceedings</a></b>`)
             }
 
 
