@@ -44,7 +44,8 @@ function buildHeader(){
     // Create a p element for your bio
     let bio = document.createElement("p");
     bio.innerHTML = `My research interests lie at the intersection of cognition, learning, and technology. I also enjoy computational modelling of psychological phenomena. 
-    <br>So far this has taken two distinct themes: (a) the study of how technology`; // Change this to your bio text
+    <br>So far this has taken two distinct themes: (a) the study of how technology can improve the process of learning; (b) the study of how human belief systems and societal infrastructure 
+    respond to a communication landscape rapidly being reshaped by technology.`; // Change this to your bio text
     bio.className = "bio"; // Add a class name for styling
 
     // Append the elements to the header content div
@@ -90,7 +91,7 @@ function buildMain(){
             // Change these to your actual items
             let items = [];
             if (headings[i] == "Cognitive Characterization of Association Training Apps") {
-                items.push(`<b>Description:</b> Independant project. Aimed at building and testing models of association learning via e-learning tools such as quizzing apps.  The goal is to help arrive at optimal design parameters for training apps similar to duolingo.<br> 
+                items.push(`<b>Description:</b> Independent project. Aimed at building and testing models of association learning via e-learning tools such as quizzing apps.  The goal is to help arrive at optimal design parameters for training apps similar to duolingo.<br> 
                  <a href = 'https://github.com/ashwinramaswamy92/Association-Trainer/blob/20b0092cb61e75ed5a69e005ac1307fb4c379991/Quiz%20Theory.ipynb'>Link</a></b>`)
             } else if(headings[i] == "Social Simulation to study Political Polarization"){
                 items.push(`<b>Description:</b> In this modelling project we use Bounded-Confidence models of opinion dynamics to study the role of media, social media, and social identity on political polarization.<br>

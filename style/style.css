@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -52,14 +53,14 @@ p {
   }
   .main{
     position: relative;
-    width: 80%;
+    width: 100%;
     align-self: center;
 
   }
 
   #footer{
     position: relative;
-    height: 15%;
+    height: 100%;
 
   }
 
@@ -106,22 +107,25 @@ p {
   #main-content {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     margin: 0px;
+    width: 80%;
   }
 
   #right-column {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
-    margin: 20px;
+    justify-content: space-evenly;
+    /* margin: 20px; */
   }
 
   #footer-div1{
     
     margin-left: 39px;
+    display: flex;
+    flex-direction: column;
   }
   
   .heading {
